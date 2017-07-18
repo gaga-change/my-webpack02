@@ -1,0 +1,27 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack demo",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaga-change/my-webpack02.git"
+  },
+  "author": "严俊东",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaga-change/my-webpack02/issues"
+  },
+  "homepage": "https://github.com/gaga-change/my-webpack02#readme"
+}
