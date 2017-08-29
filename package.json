@@ -13,6 +13,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "scripts": {
+    "sever:dist": "serve ./dist",
     "dev:open": "webpack-dev-server --env=dev --open --host 192.168.71.233",
     "dev": "webpack-dev-server --env=dev",
     "build:min": "webpack --env=prod -p",
