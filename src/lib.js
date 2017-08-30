@@ -1,4 +1,3 @@
-import _ from  'lodash'
 // 这个函数没有被其他地方引用过
 export function square(x) {
   return x * x;
